@@ -13,7 +13,7 @@ function App() {
         </div>
         <div className="username">
           <h3 id="twitter">Adekola Toniloba</h3>
-          <h3 id="slack">Toniloba</h3>
+          <h3 id="slack">atoniloba</h3>
         </div>
       </div>
 
