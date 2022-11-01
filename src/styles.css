@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.profile {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-radius: 275px;
+}
+
+img {
+  width: 88px;
+  border-radius: 50%;
+}
+
+#slack {
+  display: none;
+}
+
+.links {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+ul li {
+padding: 24px 32px;
+gap: 8px;
+list-style-type: none;
+
+}
+
+ul li button {
+  width: 1152px;
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  transition-duration: 0.3s ease-in-out ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ul li button a {
+  text-decoration: none;
+  color: #101828;
+}
+
+ul li button:hover {
+  transform: scale(1.1);
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+.icons {
+  width: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
