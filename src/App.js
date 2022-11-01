@@ -69,6 +69,11 @@ function App() {
         <img src={slack} alt="slack icon" />
         <img src={github} alt="github icon" />
       </div>
+      <footer>
+        <img src={vector} alt="vector icon" />
+        <a href="#">HNG Internship 9 Frontend Task</a>
+        <img src={ingressive} alt="ingressive icon" />
+      </footer>
     </div>
   );
 }

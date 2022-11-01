@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -14,6 +16,15 @@ border-radius: 275px;
 img {
   width: 88px;
   border-radius: 50%;
+}
+#twitter {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #101828;
 }
 
 #slack {
@@ -51,6 +62,11 @@ ul li button {
 ul li button a {
   text-decoration: none;
   color: #101828;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
 }
 
 ul li button:hover {
@@ -59,9 +75,42 @@ ul li button:hover {
 }
 
 .icons {
-  width: 30px;
+
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  
+  gap: 20px;
+  height: 72px;
+width: 100%;
+/* left: 112px;
+top: 862px; */
+border-radius: 0px;
+padding: 24px 0px 24px 0px;
+}
+
+.icons img {
+  width: 30px;
+}
+
+footer {
+  display: flex;
+/* flex-direction: column; */
+align-items: center;
+justify-content: center;
+padding: 48px 0px;
+gap: 64px;
+}
+
+footer img {
+  border-radius: 0%;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #667085;
 }
